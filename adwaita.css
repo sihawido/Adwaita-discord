@@ -1,8 +1,8 @@
 /**
  * @name Adwaita
- * @description A darkened discord theme.
+ * @description Gnome's LibAdwaita look for Discord.
  * @author siha, stolen from refact0r
- * @version 0.0.1
+ * @version 0.0.2
  * @source https://github.com/refact0r/midnight-discord
  * @authorId 508863359777505290
 */
@@ -20,36 +20,36 @@
 	--corner-text: 'Adwaita';
 
 	/* color of status indicators and window controls */
-	--online-indicator: rgb(143, 240, 164); /* change to #23a55a for default green */
-	--dnd-indicator: rgb(255, 123, 99); /* change to #f13f43 for default red */
-	--idle-indicator: rgb(248, 228, 92); /* change to #f0b232 for default yellow */
-	--streaming-indicator: rgb(220, 138, 221); /* change to #593695 for default purple */
+	--online-indicator: #8FF0A4; /* change to #23a55a for default green */
+	--dnd-indicator: #FF7B63; /* change to #f13f43 for default red */
+	--idle-indicator: #F8E45C; /* change to #f0b232 for default yellow */
+	--streaming-indicator: #DC8ADD; /* change to #593695 for default purple */
 
 	/* accent colors */
-	--accent-1: rgb(53, 132, 228); /* links */
-	--accent-2: rgb(255, 255, 255); /* general unread/mention elements */
-	--accent-3: rgb(53, 132, 228); /* accent buttons */
-	--accent-4: rgb(53, 132, 228); /* accent buttons when hovered */
-	--accent-5: rgb(120, 174, 237); /* accent buttons when clicked */
-	--mention: rgb(54, 54, 54); /* mentions & mention messages */
-	--mention-hover: rgb(74, 74, 74); /* mentions & mention messages when hovered */
+	--accent-1: #3584E4; /* links */
+	--accent-2: #FFFFFF; /* general unread/mention elements */
+	--accent-3: #3584E4; /* accent buttons */
+	--accent-4: #3584E4; /* accent buttons when hovered */
+	--accent-5: #78AEED; /* accent buttons when clicked */
+	--mention: #363636; /* mentions & mention messages */
+	--mention-hover: #4A4A4A; /* mentions & mention messages when hovered */
 
 	/* text colors */
-	--text-0: white; /* text on colored elements */
-	--text-1: var(--text-3); /* other normally white text */
-	--text-2: var(--text-3); /* headings and important text */
-	--text-3: rgb(255, 255, 255); /* normal text */
-	--text-4: rgb(255, 255, 255); /* icon buttons and channels */
-	--text-5: rgb(144, 144, 144); /* muted channels/chats and timestamps */
+	--text-0: #FFFFFF; /* text on colored elements */
+	--text-1: var(--text-0); /* other normally white text */
+	--text-2: var(--text-0); /* headings and important text */
+	--text-3: var(--text-0); /* normal text */
+	--text-4: var(--text-0); /* icon buttons and channels */
+	--text-5: #909090; /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: rgb(36, 36, 36); /* dark buttons when clicked */
-	--bg-2: rgb(0,0,0); /* dark buttons */
-	--bg-3: rgb(48, 48, 48); /* spacing, secondary elements */
-	--bg-4: rgb(36, 36, 36); /* main background color */
-	--hover: rgb(54, 54, 54); /* channels and buttons when hovered */
-	--active: rgb(54, 54, 54); /* channels and buttons when clicked or selected */
-	--message-hover: rgb(54, 54, 54); /* messages when hovered */
+	--bg-1: #242424; /* dark buttons when clicked */
+	--bg-2: #000000; /* dark buttons */
+	--bg-3: #303030; /* spacing, secondary elements */
+	--bg-4: #242424; /* main background color */
+	--hover: #363636; /* channels and buttons when hovered */
+	--active: #363636; /* channels and buttons when clicked or selected */
+	--message-hover: #363636; /* messages when hovered */
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
