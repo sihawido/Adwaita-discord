@@ -32,7 +32,7 @@
 	--accent-4: #3584E4; /* accent buttons when hovered */
 	--accent-5: #78AEED; /* accent buttons when clicked */
 	--mention: #cce0f8; /* mentions & mention messages */
-	--mention-hover: #4A4A4A; /* mentions & mention messages when hovered */
+	--mention-hover: #b0cff4; /* mentions & mention messages when hovered */
 
 	/* text colors */
 	--text-0: #ffffff; /* text on colored elements */
