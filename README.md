@@ -1,3 +1,3 @@
 # Adwaita-discord
 A Betterdiscord theme.
-![Preview](/adwaita-discord-preview.png)
+![Preview](/adwaita-preview-default.png)
