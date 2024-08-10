@@ -36,7 +36,7 @@
 
 	/* text colors */
 	--text-0: #ffffff; /* text on colored elements */
-	--text-1: #ffffff; /* other normally white text */
+	--text-1: #474747; /* other normally white text */
 	--text-2: #000000; /* headings and important text */
 	--text-3: #000000; /* normal text */
 	--text-4: #000000; /* icon buttons and channels */
@@ -44,7 +44,7 @@
 
 	/* background and dark colors */
 	--bg-1: #e0e0e0; /* dark buttons when clicked */
-	--bg-2: #ebebeb; /* dark buttons */
+	--bg-2: #474747; /* dark buttons */
 	--bg-3: #ebebeb; /* spacing, secondary elements */
 	--bg-4: #ffffff; /* main background color */
 	--hover: #d8d8d8; /* channels and buttons when hovered */
