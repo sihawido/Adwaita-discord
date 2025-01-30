@@ -1,9 +1,9 @@
 /**
- * @name Adwaita
+ * @name Adwaita Light
  * @description Gnome's LibAdwaita look for Discord.
  * @author siha, stolen from refact0r
  * @version 0.0.2
- * @source https://github.com/refact0r/midnight-discord
+ * @source https://github.com/sihawido/Adwaita-discord
  * @authorId 508863359777505290
 */
 
@@ -15,9 +15,6 @@
 :root {
 	/* default gnome font */
 	--font: 'cantarell';
-
-	/* top left corner text */
-	--corner-text: 'Adwaita';
 
 	/* color of status indicators and window controls */
 	--online-indicator: #26a269; /* change to #23a55a for default green */
@@ -32,11 +29,11 @@
 	--accent-4: #3584E4; /* accent buttons when hovered */
 	--accent-5: #78AEED; /* accent buttons when clicked */
 	--mention: #cce0f8; /* mentions & mention messages */
-	--mention-hover: #b0cff4; /* mentions & mention messages when hovered */
+	--mention-hover: #dedede; /* mentions & mention messages when hovered */
 
 	/* text colors */
 	--text-0: #ffffff; /* text on colored elements */
-	--text-1: #474747; /* other normally white text */
+	--text-1: #ffffff; /* other normally white text */
 	--text-2: #000000; /* headings and important text */
 	--text-3: #000000; /* normal text */
 	--text-4: #000000; /* icon buttons and channels */
@@ -47,8 +44,8 @@
 	--bg-2: #474747; /* dark buttons */
 	--bg-3: #ebebeb; /* spacing, secondary elements */
 	--bg-4: #ffffff; /* main background color */
-	--hover: #d8d8d8; /* channels and buttons when hovered */
-	--active: #b0cff4; /* channels and buttons when clicked or selected */
+	--hover: #dedede; /* channels and buttons when hovered */
+	--active: #dedede; /* channels and buttons when clicked or selected */
 	--message-hover: #f7f7f7; /* messages when hovered */
 
 	/* amount of spacing and padding */
